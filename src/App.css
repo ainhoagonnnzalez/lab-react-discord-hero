@@ -1,0 +1,82 @@
+.App {
+  min-height: 100vh;
+  background-color: #404eed;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+.logo {
+  width: 120px;
+}
+
+.menu-icon {
+  width: 35px;
+}
+
+.hero {
+  position: relative;
+  padding: 60px 25px;
+}
+
+.hero h1 {
+  font-size: 56px;
+  line-height: 1;
+  max-width: 400px;
+}
+
+.hero p {
+  font-size: 20px;
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+.buttons {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  gap: 15px;
+
+  margin-top: 25px;
+}
+
+button {
+  border: none;
+
+  border-radius: 30px;
+
+  padding: 15px 25px;
+
+  font-family: "Roboto", sans-serif;
+
+  font-size: 15px;
+
+  cursor: pointer;
+}
+
+.download-button {
+  background-color: white;
+
+  color: #23272a;
+}
+
+.browser-button {
+  background-color: #23272a;
+  color: white;
+}
+
+.discord-background {
+  position: absolute;
+  width: 800px;
+  max-width: 50%;
+  right: 25px;
+  top: 320px;
+}
